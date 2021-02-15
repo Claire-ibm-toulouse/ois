@@ -26,8 +26,8 @@ const Home = () => (
     <LeadSpace
       type="centered"
       theme="g100"
-      title="Lead space title"
-      copy="Use this area for a short line of copy to support the title"
+      title="OIS"
+      copy="Offres Innovantes de Services"
       gradient={true}
       // buttons={buttons}
       image={{
@@ -41,17 +41,19 @@ const Home = () => (
             breakpoint: "md",
           },
         ],
-        defaultSrc: "https://dummyimage.com/1056x480/ee5396/161616",
+        defaultSrc: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         alt: "Image alt text",
       }}
     />
     <TableOfContents menuLabel="Jump to" theme="white" stickyOffset={48}>
-      <a name="content-block-mixed" data-title="Content Block - Mixed Groups" />
+      <a name="content-block-mixed" data-title="A propos" />
       <ContentBlockMixed
-        heading="Content Block - Mixed Groups"
-        copy="Lorem ipsum *dolor* sit amet, consectetur adipiscing elit. Aenean et ultricies est.
-          Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales
-          nulla quis, *consequat* libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat libero."
+        heading="A propos"
+        copy="Offres Innovantes de Services (OIS) est une jeune entreprise dynamique portée par deux grandes entités internationales. 
+        Depuis ses débuts, l'entreprise a bien grandi et cherche encore à évoluer en même temps que ses salariés. 
+        Et pour cela, elle reste à l'écoute de ses collaborateurs. 
+        OIS est répartie en 3 activités principales qui sont: l'installation du système d'alarme chez les particuliers, 
+        la maintenance informatique dans des agences bancaires et chez des commercants, une cellule transport."
         cta={{
           cta: {
             href: "https://www.example.com",
