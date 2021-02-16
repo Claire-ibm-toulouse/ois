@@ -446,7 +446,7 @@ const Home = () => (
               },
             ],
           },
-                  ]}
+         ]}
       />
 
       <a name="témoignages" data-title="Témoignages" />
@@ -533,7 +533,7 @@ const Home = () => (
           },
           style: "card",
           type: "local",
-          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyer votre CV à l’adresse mail suivante : charlotte.ruiz@o-i-s.fr ou directement sur Indeed",
+          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyer votre CV à charlotte.ruiz@o-i-s.fr ou directement sur Indeed:",
         }}
         
         items={[
