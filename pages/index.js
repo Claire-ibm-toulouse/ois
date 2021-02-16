@@ -63,6 +63,7 @@ const Home = () => (
           copy: "Lorem ipsum dolor sit ametttt",
         }}
         items={[
+          // Fiches métiers ( 2 fiches)
           {
             type: "ContentGroupCards",
             heading: "Content Group - with Cards",
@@ -194,6 +195,7 @@ const Home = () => (
             ],
           },
         ]}
+        /*
         aside={{
           items: (
             <LinkList
@@ -218,6 +220,7 @@ const Home = () => (
           ),
           border: false,
         }}
+        */
       />
       <Layout nested={true} type="2-1" border={true}>
         <div>
