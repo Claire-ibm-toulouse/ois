@@ -392,11 +392,11 @@ const Home = () => (
                 heading: "Réception et analyse des CV",
                 copy:
                   "Nos offres d’emplois et notre entreprise vous intéressent et vous postulez à l’adresse suivante : charlotte.ruiz@o-i-s.fr",
-                cta: {
+                /*cta: {
                   href: "mailto:charlotte.ruiz@o-i-s.fr",
                   type: "local",
                   copy: "Envoyer votre candidature",
-                },
+                },*/
                 pictogram: {
                   src: Desktop,
                   "aria-label": "Desktop",
@@ -406,11 +406,11 @@ const Home = () => (
                 heading: "Entretien téléphonique",
                 copy:
                   "Votre candidature a retenu notre attention et nous souhaitons échanger avec vous sur votre parcours professionnel",
-                cta: {
+                /*cta: {
                   href: "https://www.example.com",
                   type: "local",
                   copy: "Lorem ipsum dolor",
-                },
+                },*/
                 pictogram: {
                   src: Pattern,
                   "aria-label": "Pattern",
@@ -420,11 +420,11 @@ const Home = () => (
                 heading: "Entretien face à face",
                 copy:
                   "Rencontre avec votre éventuel futur manager pour détailler plus en détails le poste et établir un véritable échange",
-                cta: {
+                /*cta: {
                   href: "https://www.example.com",
                   type: "local",
                   copy: "Lorem ipsum dolor",
-                },
+                },*/
                 pictogram: {
                   src: Touch,
                   "aria-label": "Touch",
@@ -434,11 +434,11 @@ const Home = () => (
                 heading: "Validation de la candidature et intégration",
                 copy:
                   "Félicitations, votre candidature est retenue !",
-                cta: {
+                /*cta: {
                   href: "https://www.example.com",
                   type: "local",
                   copy: "Lorem ipsum dolor",
-                },
+                },*/
                 pictogram: {
                   src: Touch,
                   "aria-label": "Touch",
