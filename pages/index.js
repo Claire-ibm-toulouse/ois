@@ -339,19 +339,9 @@ const Home = () => (
         */
       />
       
-      <a name="content-block-mixed" data-title="Recrutement" />
+
+      <a name="recrutement" data-title="Recrutement" />
       <ContentBlockMixed
-        /*
-        // Module "Rejoignez-vous" en bas de page
-        cta={{
-          cta: {
-            href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
-          },
-          style: "card",
-          type: "local",
-          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyer votre CV à l’adresse mail suivante : charlotte.ruiz@o-i-s.fr ou directement sur Indeed",
-        }}
-        */
         items={[
           
          // Module "Pourquoi nous rejoindre"
@@ -456,91 +446,11 @@ const Home = () => (
               },
             ],
           },
-
-          // Module "Témoignages"
-          /*
-          {
-            type: "ContentGroupCards",
-            heading: "Témoignages",
-            items: [
-              {
-                heading:
-                  "M - Manager opérationnel itinérant",
-                copy:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-                cta: {
-                  href: "https://www.example.com",
-                },
-              },
-              {
-                heading:
-                  "M - Manager de la conduite d'activités",
-                copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-                cta: {
-                  href: "https://www.example.com",
-                },
-              }
-            ],
-          },
-          {
-            type: "ContentGroupSimple",
-            mediaType: "image",
-            mediaData: {
-              heading: "Lorem ipsum dolor sit amet.",
-              image: {
-                sources: [
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 320,
-                  },
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 400,
-                  },
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 672,
-                  },
-                ],
-                alt: "Image alt text",
-                defaultSrc:
-                  "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-              },
-            },
-            heading: "Témoignages",
-            items: [
-              {
-                heading: "M - Manager opérationnel itinérant",
-                copy:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-              },
-              {
-                heading: "M - Manager de la conduite d'activités",
-                copy:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-              },
-            ],
-          },
-          */
-        ]}
+                  ]}
       />
 
-      <a name="content-block-mixed" data-title="Témoignages" />
+      <a name="témoignages" data-title="Témoignages" />
       <ContentBlockMixed
-        /*
-        // Module "Rejoignez-vous" en bas de page
-        cta={{
-          cta: {
-            href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
-          },
-          style: "card",
-          type: "local",
-          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyer votre CV à l’adresse mail suivante : charlotte.ruiz@o-i-s.fr ou directement sur Indeed",
-        }}
-        */
         items={[
           
           // Module "Témoignages" #1
@@ -613,7 +523,7 @@ const Home = () => (
           },
         ]}
       />
-      <a name="content-block-mixed" data-title="Nous rejoindre" />
+      <a name="nousrejoindre" data-title="Nous rejoindre" />
       <ContentBlockMixed
         
         // Module "Rejoignez-vous" en bas de page
