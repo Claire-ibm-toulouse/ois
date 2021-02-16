@@ -54,13 +54,14 @@ const Home = () => (
         Et pour cela, elle reste à l'écoute de ses collaborateurs. 
         OIS est répartie en 3 activités principales qui sont: l'installation du système d'alarme chez les particuliers, 
         la maintenance informatique dans des agences bancaires et chez des commercants, une cellule transport."
+        // module "Rejoignez-vous" en bas de page"
         cta={{
           cta: {
-            href: "https://www.example.com",
+            href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
           },
           style: "card",
           type: "local",
-          copy: "Lorem ipsum dolor sit ametttt",
+          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyer votre CV à l’adresse mail suivante : charlotte.ruiz@o-i-s.fr ou directement sur Indeed",
         }}
         items={[
           {
@@ -184,6 +185,29 @@ const Home = () => (
                   "aria-label": "Touch",
                 },
               },
+            ],
+          },
+          {
+            type: "ContentGroupCards",
+            heading: "Témoignages",
+            items: [
+              {
+                heading:
+                  "M - Manager opérationnel itinérant",
+                copy:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                cta: {
+                  href: "https://www.example.com",
+                },
+              },
+              {
+                heading:
+                  "M - Manager de la conduite d'activités",
+                copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                cta: {
+                  href: "https://www.example.com",
+                },
+              }
             ],
           },
           {
