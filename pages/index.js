@@ -43,7 +43,7 @@ const Home = () => (
           },
         ],
         //defaultSrc: { image },
-        defaultSrc: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        defaultSrc: "/leadspaceimage2.jpg",
         alt: "Image alt text",
       }}
     />
@@ -103,7 +103,7 @@ const Home = () => (
           },
           
           // Module "Pourquoi nous rejoindre"
-          /*
+          
           {
             type: "ContentGroupSimple",
             mediaType: "image",
@@ -137,10 +137,10 @@ const Home = () => (
               {
                 //heading: "Pour toutes ces raisons :",
                 copy:
-                  "Nous sommes une entreprise dynamique et en perpétuelle évolution. OIS est à l’écoute de ses salariés. Nous développons les compétences de nos collaborateurs. Nos techniciens sont autonomes. Nous disposons d’un CE. Nous avons mis en place le 1% logement. Participation aux bénéfices",
+                  "Nous sommes une entreprise dynamique et en perpétuelle évolution. OIS est à l’écoute de ses salariés: nous développons les compétences de nos collaborateurs; nos techniciens sont autonomes; nous disposons d’un CE; nous avons mis en place le 1% logement; participation aux bénéfices.",
               },
             ],
-          },*/
+          },
           
           // Module "Notre processus de recrutement"
           /*
@@ -315,24 +315,24 @@ const Home = () => (
             ],
           },*/
         ]}
-        /*
+        
         aside={{
           items: (
             <LinkList
-              heading="Tutorials"
+              heading="Rejoignez-nous!"
               items={[
                 {
-                  type: "local",
-                  copy: "Containerization A Complete Guide",
+                  type: "external",
+                  copy: "Envoyez-nous directement votre CV",
                   cta: {
-                    href: "https://ibm.com",
+                    href: "mailto:charlotte.ruiz@o-i-s.fr",
                   },
                 },
                 {
                   type: "external",
-                  copy: "Why should you use microservices and containers",
+                  copy: "Ou postulez sur INDEED",
                   cta: {
-                    href: "https://ibm.com",
+                    href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
                   },
                 },
               ]}
@@ -340,7 +340,7 @@ const Home = () => (
           ),
           border: false,
         }}
-        */
+        
       />
       
 
@@ -351,7 +351,7 @@ const Home = () => (
         items={[
           
          // Module "Pourquoi nous rejoindre"
-          {
+          /*{
             type: "ContentGroupSimple",
             mediaType: "image",
             mediaData: {
@@ -387,7 +387,7 @@ const Home = () => (
                   "Nous sommes une entreprise dynamique et en perpétuelle évolution. OIS est à l’écoute de ses salariés. Nous développons les compétences de nos collaborateurs. Nos techniciens sont autonomes. Nous disposons d’un CE. Nous avons mis en place le 1% logement. Participation aux bénéfices",
               },
             ],
-          },
+          },*/
 
           // Module "Notre processus de recrutement"
           {
@@ -399,8 +399,8 @@ const Home = () => (
                 copy:
                   "Nos offres d’emplois et notre entreprise vous intéressent et vous postulez à l’adresse suivante : charlotte.ruiz@o-i-s.fr",
                 /*cta: {
-                  href: "mailto:charlotte.ruiz@o-i-s.fr",
-                  type: "local",
+                  mailto: "charlotte.ruiz@o-i-s.fr",
+                  type: "external",
                   copy: "Envoyer votre candidature",
                 },*/
                 pictogram: {
@@ -461,6 +461,7 @@ const Home = () => (
         items={[
           
           // Module "Témoignages" #1
+          /*
           {
             type: "ContentGroupCards",
             //heading: "Témoignages",
@@ -483,7 +484,7 @@ const Home = () => (
                 },
               }
             ],
-          },
+          },*/
 
           //Module "Témoignages" #2
           {
@@ -541,7 +542,7 @@ const Home = () => (
           },
           style: "card",
           type: "local",
-          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyer votre CV à charlotte.ruiz@o-i-s.fr ou directement sur Indeed:",
+          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyez votre CV à charlotte.ruiz@o-i-s.fr ou directement sur INDEED:",
         }}
         
         items={[
