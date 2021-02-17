@@ -15,6 +15,7 @@ import {
 } from "@carbon/ibmdotcom-react";
 import { ArrowRight20 } from "@carbon/icons-react";
 import React from "react";
+import image from "./images/leadspaceimage.jpg";
 
 /**
  * Homepage
@@ -41,7 +42,8 @@ const Home = () => (
             breakpoint: "md",
           },
         ],
-        defaultSrc: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        defaultSrc: {image},
+        //defaultSrc: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         alt: "Image alt text",
       }}
     />
