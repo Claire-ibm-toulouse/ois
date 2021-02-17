@@ -15,7 +15,7 @@ import {
 } from "@carbon/ibmdotcom-react";
 import { ArrowRight20 } from "@carbon/icons-react";
 import React from "react";
-import image from "./images/leadspaceimage.jpg";
+//import image from "./images/leadspaceimage.jpg";
 
 /**
  * Homepage
@@ -27,7 +27,7 @@ const Home = () => (
     <LeadSpace
       type="centered"
       theme="g100"
-      title="OIS"
+      title="Offres Innovantes de Services (OIS)"
       copy="Offres Innovantes de Services"
       gradient={true}
       // buttons={buttons}
@@ -42,8 +42,8 @@ const Home = () => (
             breakpoint: "md",
           },
         ],
-        defaultSrc: {image},
-        //defaultSrc: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        //defaultSrc: { image },
+        defaultSrc: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
         alt: "Image alt text",
       }}
     />
@@ -86,7 +86,8 @@ const Home = () => (
                 copy:
                 "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et des petites entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les souhaits et réserves du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces.",
                 cta: {
-                  href: "https://www.example.com",
+                  href: "#nousrejoindre",
+                  //href: "https://www.example.com",
                 },
               },
               {
@@ -94,7 +95,8 @@ const Home = () => (
                   "Technicien itinérant en informatique et monétique",
                 copy: "Nos technicien(ne)s interviennent dans des succursales bancaires ou commerçants en garantissant la qualité de service et la satisfaction de nos clients. Principales missions: assurer des missions d’installation et/ou de dépannage selon les instructions et les procédures définies, conseiller et assister les utilisateurs, procéder aux diagnostics des pannes, appliquer une procédure de tests aux différents stades de l’intervention, réaliser les actions administratives, informatiques et logistiques.",
                 cta: {
-                  href: "https://www.example.com",
+                  href: "#nousrejoindre",
+                  //href: "https://www.example.com",
                 },
               }
             ],
@@ -343,7 +345,9 @@ const Home = () => (
       
 
       <a name="recrutement" data-title="Recrutement" />
+
       <ContentBlockMixed
+        heading="Recrutement"
         items={[
           
          // Module "Pourquoi nous rejoindre"
@@ -453,16 +457,17 @@ const Home = () => (
 
       <a name="témoignages" data-title="Témoignages" />
       <ContentBlockMixed
+        heading="Témoignages"
         items={[
           
           // Module "Témoignages" #1
           {
             type: "ContentGroupCards",
-            heading: "Témoignages",
+            //heading: "Témoignages",
             items: [
               {
                 heading:
-                  "M - Manager opérationnel itinérant",
+                  "X - Manager opérationnel itinérant",
                 copy:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
                 cta: {
@@ -471,7 +476,7 @@ const Home = () => (
               },
               {
                 heading:
-                  "M - Manager de la conduite d'activités",
+                  "Y - Manager de la conduite d'activités",
                 copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
                 cta: {
                   href: "https://www.example.com",
@@ -509,15 +514,15 @@ const Home = () => (
                   "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
               },
             },
-            heading: "Témoignages",
+            //heading: "Témoignages",
             items: [
               {
-                heading: "M - Manager opérationnel itinérant",
+                heading: "X - Manager opérationnel itinérant",
                 copy:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
               },
               {
-                heading: "M - Manager de la conduite d'activités",
+                heading: "Y - Manager de la conduite d'activités",
                 copy:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
               },
@@ -526,8 +531,9 @@ const Home = () => (
         ]}
       />
       <a name="nousrejoindre" data-title="Nous rejoindre" />
-      <ContentBlockMixed
-        
+      <ContentBlockMixed 
+        id="nousrejoindre"
+        heading="Nous rejoindre"
         // Module "Rejoignez-vous" en bas de page
         cta={{
           cta: {
