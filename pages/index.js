@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import "../styles/landing.scss";
-import { Desktop, Pattern, Touch } from "@carbon/pictograms-react";
+import { Envelope, Headphones, PartnerRelationship, FaceSatisfied, Sunny } from "@carbon/pictograms-react";
 import {
   TableOfContents,
   LeadSpace,
@@ -404,8 +404,8 @@ const Home = () => (
                   copy: "Envoyer votre candidature",
                 },*/
                 pictogram: {
-                  src: Desktop,
-                  "aria-label": "Desktop",
+                  src: Envelope,
+                  "aria-label": "Envelope",
                 },
               },
               {
@@ -418,8 +418,8 @@ const Home = () => (
                   copy: "Lorem ipsum dolor",
                 },*/
                 pictogram: {
-                  src: Pattern,
-                  "aria-label": "Pattern",
+                  src: Headphones,
+                  "aria-label": "Headphones",
                 },
               },
               {
@@ -432,8 +432,8 @@ const Home = () => (
                   copy: "Lorem ipsum dolor",
                 },*/
                 pictogram: {
-                  src: Touch,
-                  "aria-label": "Touch",
+                  src: PartnerRelationship,
+                  "aria-label": "PartnerRelationship",
                 },
               },
               {
@@ -446,8 +446,10 @@ const Home = () => (
                   copy: "Lorem ipsum dolor",
                 },*/
                 pictogram: {
-                  src: Touch,
-                  "aria-label": "Touch",
+                  src: FaceSatisfied,
+                  "aria-label": "FaceSatisfied",
+                  //src: Sunny,
+                  //"aria-label": "Sunny",
                 },
               },
             ],
