@@ -1,21 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import "../styles/landing.scss";
-import { Envelope, Headphones, PartnerRelationship, FaceSatisfied, Sunny } from "@carbon/pictograms-react";
+import { Envelope, Headphones, PartnerRelationship, FaceSatisfied } from "@carbon/pictograms-react";
 import {
   TableOfContents,
   LeadSpace,
-  Layout,
-  ContentBlockMedia,
   LinkList,
   ContentBlockMixed,
-  ContentBlockSegmented,
-  ContentBlockSimple,
-  CardSectionImages,
-  CardSectionSimple,
 } from "@carbon/ibmdotcom-react";
 import { ArrowRight20 } from "@carbon/icons-react";
 import React from "react";
-//import image from "./images/leadspaceimage.jpg";
 
 /**
  * Homepage
@@ -42,7 +35,6 @@ const Home = () => (
             breakpoint: "md",
           },
         ],
-        //defaultSrc: { image },
         defaultSrc: "/leadspaceimage2.jpg",
         alt: "Image alt text",
       }}
@@ -62,17 +54,6 @@ const Home = () => (
         OIS est répartie en 3 activités principales qui sont: l'installation du système d'alarme chez les particuliers, 
         la maintenance informatique dans des agences bancaires et chez des commercants, une cellule transport."
         
-        // Module "Rejoignez-vous" en bas de page
-        /*
-        cta={{
-          cta: {
-            href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
-          },
-          style: "card",
-          type: "local",
-          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyer votre CV à l’adresse mail suivante : charlotte.ruiz@o-i-s.fr ou directement sur Indeed",
-        }}
-        */
         items={[
           
           // Module "Nos métiers"
@@ -141,179 +122,6 @@ const Home = () => (
               },
             ],
           },
-          
-          // Module "Notre processus de recrutement"
-          /*
-          {
-            type: "ContentGroupPictograms",
-            heading: "Notre processus de recrutement",
-            items: [
-              {
-                heading: "Réception et analyse des CV",
-                copy:
-                  "Nos offres d’emplois et notre entreprise vous intéressent et vous postulez à l’adresse suivante : charlotte.ruiz@o-i-s.fr",
-                cta: {
-                  href: "mailto:charlotte.ruiz@o-i-s.fr",
-                  type: "local",
-                  copy: "Envoyer votre candidature",
-                },
-                pictogram: {
-                  src: Desktop,
-                  "aria-label": "Desktop",
-                },
-              },
-              {
-                heading: "Entretien téléphonique",
-                copy:
-                  "Votre candidature a retenu notre attention et nous souhaitons échanger avec vous sur votre parcours professionnel",
-                cta: {
-                  href: "https://www.example.com",
-                  type: "local",
-                  copy: "Lorem ipsum dolor",
-                },
-                pictogram: {
-                  src: Pattern,
-                  "aria-label": "Pattern",
-                },
-              },
-              {
-                heading: "Entretien face à face",
-                copy:
-                  "Rencontre avec votre éventuel futur manager pour détailler plus en détails le poste et établir un véritable échange",
-                cta: {
-                  href: "https://www.example.com",
-                  type: "local",
-                  copy: "Lorem ipsum dolor",
-                },
-                pictogram: {
-                  src: Touch,
-                  "aria-label": "Touch",
-                },
-              },
-              {
-                heading: "Validation de la candidature et intégration",
-                copy:
-                  "Félicitations, votre candidature est retenue !",
-                cta: {
-                  href: "https://www.example.com",
-                  type: "local",
-                  copy: "Lorem ipsum dolor",
-                },
-                pictogram: {
-                  src: Touch,
-                  "aria-label": "Touch",
-                },
-              },
-            ],
-          },*/
-
-          // Module "Témoignages"
-          /*
-          {
-            type: "ContentGroupCards",
-            heading: "Témoignages",
-            items: [
-              {
-                heading:
-                  "M - Manager opérationnel itinérant",
-                copy:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-                cta: {
-                  href: "https://www.example.com",
-                },
-              },
-              {
-                heading:
-                  "M - Manager de la conduite d'activités",
-                copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-                cta: {
-                  href: "https://www.example.com",
-                },
-              }
-            ],
-          },
-          {
-            type: "ContentGroupSimple",
-            mediaType: "image",
-            mediaData: {
-              heading: "Lorem ipsum dolor sit amet.",
-              image: {
-                sources: [
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 320,
-                  },
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 400,
-                  },
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 672,
-                  },
-                ],
-                alt: "Image alt text",
-                defaultSrc:
-                  "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-              },
-            },
-            heading: "Témoignages",
-            items: [
-              {
-                heading: "M - Manager opérationnel itinérant",
-                copy:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-              },
-              {
-                heading: "M - Manager de la conduite d'activités",
-                copy:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-              },
-            ],
-          },*/
-
-          // Module "Pourquoi nous rejoindre"
-          /* 
-          {
-            type: "ContentGroupSimple",
-            mediaType: "image",
-            mediaData: {
-              heading: "Lorem ipsum dolor sit amet.",
-              image: {
-                sources: [
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 320,
-                  },
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 400,
-                  },
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 672,
-                  },
-                ],
-                alt: "Image alt text",
-                defaultSrc:
-                  "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-              },
-            },
-            heading: "Pourquoi nous rejoindre",
-            items: [
-              {
-                //heading: "Pour toutes ces raisons :",
-                copy:
-                  "Nous sommes une entreprise dynamique et en perpétuelle évolution. OIS est à l’écoute de ses salariés. Nous développons les compétences de nos collaborateurs. Nos techniciens sont autonomes. Nous disposons d’un CE. Nous avons mis en place le 1% logement. Participation aux bénéfices",
-              },
-            ],
-          },*/
         ]}
         
         aside={{
@@ -350,45 +158,6 @@ const Home = () => (
         heading="Recrutement"
         items={[
           
-         // Module "Pourquoi nous rejoindre"
-          /*{
-            type: "ContentGroupSimple",
-            mediaType: "image",
-            mediaData: {
-              heading: "Lorem ipsum dolor sit amet.",
-              image: {
-                sources: [
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 320,
-                  },
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 400,
-                  },
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 672,
-                  },
-                ],
-                alt: "Image alt text",
-                defaultSrc:
-                  "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-              },
-            },
-            heading: "Pourquoi nous rejoindre",
-            items: [
-              {
-                //heading: "Pour toutes ces raisons :",
-                copy:
-                  "Nous sommes une entreprise dynamique et en perpétuelle évolution. OIS est à l’écoute de ses salariés. Nous développons les compétences de nos collaborateurs. Nos techniciens sont autonomes. Nous disposons d’un CE. Nous avons mis en place le 1% logement. Participation aux bénéfices",
-              },
-            ],
-          },*/
-
           // Module "Notre processus de recrutement"
           {
             type: "ContentGroupPictograms",
@@ -448,8 +217,6 @@ const Home = () => (
                 pictogram: {
                   src: FaceSatisfied,
                   "aria-label": "FaceSatisfied",
-                  //src: Sunny,
-                  //"aria-label": "Sunny",
                 },
               },
             ],
@@ -533,6 +300,7 @@ const Home = () => (
           },
         ]}
       />
+      
       <a name="nousrejoindre" data-title="Nous rejoindre" />
       <ContentBlockMixed 
         id="nousrejoindre"
