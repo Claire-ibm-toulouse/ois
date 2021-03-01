@@ -68,7 +68,6 @@ const Home = () => (
                 "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et des petites entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les souhaits et réserves du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces.",
                 cta: {
                   href: "#nousrejoindre",
-                  //href: "https://www.example.com",
                 },
               },
               {
@@ -77,7 +76,6 @@ const Home = () => (
                 copy: "Nos technicien(ne)s interviennent dans des succursales bancaires ou commerçants en garantissant la qualité de service et la satisfaction de nos clients. Principales missions: assurer des missions d’installation et/ou de dépannage selon les instructions et les procédures définies, conseiller et assister les utilisateurs, procéder aux diagnostics des pannes, appliquer une procédure de tests aux différents stades de l’intervention, réaliser les actions administratives, informatiques et logistiques.",
                 cta: {
                   href: "#nousrejoindre",
-                  //href: "https://www.example.com",
                 },
               }
             ],
@@ -181,11 +179,6 @@ const Home = () => (
                 heading: "Entretien téléphonique",
                 copy:
                   "Votre candidature a retenu notre attention et nous souhaitons échanger avec vous sur votre parcours professionnel",
-                /*cta: {
-                  href: "https://www.example.com",
-                  type: "local",
-                  copy: "Lorem ipsum dolor",
-                },*/
                 pictogram: {
                   src: Headphones,
                   "aria-label": "Headphones",
@@ -195,11 +188,6 @@ const Home = () => (
                 heading: "Entretien face à face",
                 copy:
                   "Rencontre avec votre éventuel futur manager pour détailler plus en détails le poste et établir un véritable échange",
-                /*cta: {
-                  href: "https://www.example.com",
-                  type: "local",
-                  copy: "Lorem ipsum dolor",
-                },*/
                 pictogram: {
                   src: PartnerRelationship,
                   "aria-label": "PartnerRelationship",
@@ -209,11 +197,6 @@ const Home = () => (
                 heading: "Validation de la candidature et intégration",
                 copy:
                   "Félicitations, votre candidature est retenue !",
-                /*cta: {
-                  href: "https://www.example.com",
-                  type: "local",
-                  copy: "Lorem ipsum dolor",
-                },*/
                 pictogram: {
                   src: FaceSatisfied,
                   "aria-label": "FaceSatisfied",
@@ -223,39 +206,14 @@ const Home = () => (
           },
          ]}
       />
-
+        
       <a name="témoignages" data-title="Témoignages" />
       <ContentBlockMixed
+
+        //Module "Témoignages" #2
+
         heading="Témoignages"
         items={[
-          
-          // Module "Témoignages" #1
-          /*
-          {
-            type: "ContentGroupCards",
-            //heading: "Témoignages",
-            items: [
-              {
-                heading:
-                  "X - Manager opérationnel itinérant",
-                copy:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-                cta: {
-                  href: "https://www.example.com",
-                },
-              },
-              {
-                heading:
-                  "Y - Manager de la conduite d'activités",
-                copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-                cta: {
-                  href: "https://www.example.com",
-                },
-              }
-            ],
-          },*/
-
-          //Module "Témoignages" #2
           {
             type: "ContentGroupSimple",
             mediaType: "image",
@@ -284,15 +242,25 @@ const Home = () => (
                   "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
               },
             },
-            //heading: "Témoignages",
+
             items: [
               {
-                heading: "X - Manager opérationnel itinérant",
+                heading: "A - Technicien itinérant en systèmes d’alarmes",
                 copy:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
               },
               {
-                heading: "Y - Manager de la conduite d'activités",
+                heading: "B - Technicien itinérant en informatique et monétique",
+                copy:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+              },
+              {
+                heading: "C - Manager opérationnel itinérant",
+                copy:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+              },
+              {
+                heading: "D - Manager de la conduite d'activités",
                 copy:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
               },
@@ -300,7 +268,6 @@ const Home = () => (
           },
         ]}
       />
-      
       <a name="nousrejoindre" data-title="Nous rejoindre" />
       <ContentBlockMixed 
         id="nousrejoindre"
