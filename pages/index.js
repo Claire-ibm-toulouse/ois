@@ -21,11 +21,11 @@ const Home = () => (
       type="centered"
       theme="g100"
       title="Offres Innovantes de Services (OIS)"
-      copy="Offres Innovantes de Services"
+      copy="Une société de services du groupe IBM France spécialisée dans l'installation de systèmes d'alarmes chez les particuliers et dans la maintenance informatique des agences bancaires."
       gradient={true}
       // buttons={buttons}
       image={{
-        sources: [
+        /*sources: [
           {
             src: "https://dummyimage.com/320x370/ee5396/161616",
             breakpoint: "sm",
@@ -34,8 +34,8 @@ const Home = () => (
             src: "https://dummyimage.com/672x400/ee5396/161616",
             breakpoint: "md",
           },
-        ],
-        defaultSrc: "/leadspaceimage2.jpg",
+        ],*/
+        defaultSrc: "leadspaceimage2.jpg",
         alt: "Image alt text",
       }}
     />
