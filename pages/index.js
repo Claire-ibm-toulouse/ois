@@ -36,8 +36,8 @@ const Home = () => (
             breakpoint: "md",
           },
         ],*/
-        defaultSrc: "leadspaceimage2.jpg",
-        alt: "Image alt text",
+        defaultSrc: "leadspace1056x480.jpg",
+        alt: "Image showing holding hands",
       }}
     />
 
