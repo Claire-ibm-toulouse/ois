@@ -89,7 +89,7 @@ const Home = () => (
             mediaData: {
               heading: "Lorem ipsum dolor sit amet.",
               image: {
-                sources: [
+                /*sources: [
                   {
                     src:
                       "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
@@ -105,10 +105,10 @@ const Home = () => (
                       "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
                     breakpoint: 672,
                   },
-                ],
+                ],*/
                 alt: "Image alt text",
                 defaultSrc:
-                  "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
+                  "leadspaceimage.jpg",
               },
             },
             heading: "Pourquoi nous rejoindre",
@@ -116,7 +116,7 @@ const Home = () => (
               {
                 //heading: "Pour toutes ces raisons :",
                 copy:
-                  "Nous sommes une entreprise dynamique et en perpétuelle évolution. OIS est à l’écoute de ses salariés: nous développons les compétences de nos collaborateurs; nos techniciens sont autonomes; nous disposons d’un CE; nous avons mis en place le 1% logement; participation aux bénéfices.",
+                  "Nous sommes une entreprise dynamique, à taille humaine et en perpétuelle évolution. Soucieux de respecter l'équilibre vie privée vie professionnelle, nous travaillons en confiance avec nos collaborateurs en leur accordant une grande autonomie. Le développement des compétences est assuré par des formations adaptées et continues tout au long du parcours professionnel, avec des conditions motivantes : CE, 1% Logement, participation aux bénéfices... Nous recrutons partout en France, alors n'attendez plus : rejoignez-nous !",
               },
             ],
           },
@@ -194,9 +194,9 @@ const Home = () => (
                 },
               },
               {
-                heading: "Validation de la candidature et intégration",
+                heading: "Validation de la candidature",
                 copy:
-                  "Félicitations, votre candidature est retenue !",
+                  "Félicitations, votre candidature est retenue ! Bienvenue chez OIS !",
                 pictogram: {
                   src: FaceSatisfied,
                   "aria-label": "FaceSatisfied",
@@ -279,7 +279,7 @@ const Home = () => (
           },
           style: "card",
           type: "local",
-          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyez votre CV à charlotte.ruiz@o-i-s.fr ou directement sur INDEED:",
+          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyez votre CV à charlotte.ruiz@o-i-s.fr ou postulez directement sur Indeed:",
         }}
         
         items={[
