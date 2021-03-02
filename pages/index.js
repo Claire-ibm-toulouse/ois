@@ -6,6 +6,7 @@ import {
   LeadSpace,
   LinkList,
   ContentBlockMixed,
+  ContentBlockSimple
 } from "@carbon/ibmdotcom-react";
 import { ArrowRight20 } from "@carbon/icons-react";
 import React from "react";
@@ -48,11 +49,11 @@ const Home = () => (
         
         // Module "A propos"
         heading="A propos"
-        copy="Offres Innovantes de Services (OIS) est une jeune entreprise dynamique portée par deux grandes entités internationales. 
+        copy="OIS (Offres Innovantes de Services) est une jeune entreprise dynamique portée par deux grandes entités internationales. 
         Depuis ses débuts, l'entreprise a bien grandi et cherche encore à évoluer en même temps que ses salariés. 
         Et pour cela, elle reste à l'écoute de ses collaborateurs. 
-        OIS est répartie en 3 activités principales qui sont: l'installation du système d'alarme chez les particuliers, 
-        la maintenance informatique dans des agences bancaires et chez des commercants, une cellule transport."
+        OIS est répartie en 3 activités principales : l'installation de systèmes d'alarmes chez les particuliers, 
+        la maintenance informatique dans des agences bancaires et chez des commercants, et une cellule transport."
         
         items={[
           
@@ -65,7 +66,7 @@ const Home = () => (
                 heading:
                   "Technicien itinérant en systèmes d’alarmes",
                 copy:
-                "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et des petites entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les souhaits et réserves du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces.",
+                  "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et des petites entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les souhaits et réserves du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces.",
                 cta: {
                   href: "#nousrejoindre",
                 },
@@ -73,7 +74,8 @@ const Home = () => (
               {
                 heading:
                   "Technicien itinérant en informatique et monétique",
-                copy: "Nos technicien(ne)s interviennent dans des succursales bancaires ou commerçants en garantissant la qualité de service et la satisfaction de nos clients. Principales missions: assurer des missions d’installation et/ou de dépannage selon les instructions et les procédures définies, conseiller et assister les utilisateurs, procéder aux diagnostics des pannes, appliquer une procédure de tests aux différents stades de l’intervention, réaliser les actions administratives, informatiques et logistiques.",
+                copy: 
+                  "Nos technicien(ne)s interviennent dans des succursales bancaires ou commerçants en garantissant la qualité de service et la satisfaction de nos clients. Principales missions: assurer des missions d’installation et/ou de dépannage selon les instructions et les procédures définies, conseiller et assister les utilisateurs, procéder aux diagnostics des pannes, appliquer une procédure de tests aux différents stades de l’intervention, réaliser les actions administratives, informatiques et logistiques.",
                 cta: {
                   href: "#nousrejoindre",
                 },
@@ -87,7 +89,7 @@ const Home = () => (
             type: "ContentGroupSimple",
             mediaType: "image",
             mediaData: {
-              heading: "Lorem ipsum dolor sit amet.",
+              //heading: "Lorem ipsum dolor sit amet.",
               image: {
                 /*sources: [
                   {
@@ -106,7 +108,7 @@ const Home = () => (
                     breakpoint: 672,
                   },
                 ],*/
-                alt: "Image alt text",
+                alt: "picture showing holding hands",
                 defaultSrc:
                   "leadspaceimage.jpg",
               },
@@ -116,7 +118,7 @@ const Home = () => (
               {
                 //heading: "Pour toutes ces raisons :",
                 copy:
-                  "Nous sommes une entreprise dynamique, à taille humaine et en perpétuelle évolution. Soucieux de respecter l'équilibre vie privée vie professionnelle, nous travaillons en confiance avec nos collaborateurs en leur accordant une grande autonomie. Le développement des compétences est assuré par des formations adaptées et continues tout au long du parcours professionnel, avec des conditions motivantes : CE, 1% Logement, participation aux bénéfices... Nous recrutons partout en France, alors n'attendez plus : rejoignez-nous !",
+                  "Nous sommes une entreprise dynamique, à taille humaine et en perpétuelle évolution. Soucieux de respecter l'équilibre vie privée vie professionnelle, nous travaillons en confiance avec nos collaborateurs en leur accordant une grande autonomie. Le développement des compétences est assuré par des formations adaptées et continues tout au long du parcours professionnel, avec des conditions motivantes : CE, 1% Logement, participation aux bénéfices. Nous recrutons partout en France, alors n'attendez plus et [rejoignez-nous](#nousrejoindre) !",
               },
             ],
           },
@@ -129,16 +131,16 @@ const Home = () => (
               items={[
                 {
                   type: "external",
-                  copy: "Envoyez-nous directement votre CV",
+                  copy: "Consultez nos offres d'emploi sur Indeed",
                   cta: {
-                    href: "mailto:charlotte.ruiz@o-i-s.fr",
+                    href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
                   },
                 },
                 {
                   type: "external",
-                  copy: "Ou postulez sur INDEED",
+                  copy: "Envoyez-nous directement votre CV",
                   cta: {
-                    href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
+                    href: "mailto:charlotte.ruiz@o-i-s.fr",
                   },
                 },
               ]}
@@ -164,7 +166,7 @@ const Home = () => (
               {
                 heading: "Réception et analyse des CV",
                 copy:
-                  "Nos offres d’emplois et notre entreprise vous intéressent et vous postulez à l’adresse suivante : charlotte.ruiz@o-i-s.fr",
+                  "Nos offres d’emplois et notre entreprise vous intéressent et vous [postulez directement à cette adresse email](mailto:charlotte.ruiz@o-i-s.fr).",
                 /*cta: {
                   mailto: "charlotte.ruiz@o-i-s.fr",
                   type: "external",
@@ -178,7 +180,7 @@ const Home = () => (
               {
                 heading: "Entretien téléphonique",
                 copy:
-                  "Votre candidature a retenu notre attention et nous souhaitons échanger avec vous sur votre parcours professionnel",
+                  "Votre candidature a retenu notre attention et nous souhaitons échanger avec vous sur votre parcours professionnel.",
                 pictogram: {
                   src: Headphones,
                   "aria-label": "Headphones",
@@ -187,7 +189,7 @@ const Home = () => (
               {
                 heading: "Entretien face à face",
                 copy:
-                  "Rencontre avec votre éventuel futur manager pour détailler plus en détails le poste et établir un véritable échange",
+                  "Rencontre avec votre éventuel futur manager pour détailler plus en détails le poste et établir un véritable échange.",
                 pictogram: {
                   src: PartnerRelationship,
                   "aria-label": "PartnerRelationship",
@@ -209,16 +211,61 @@ const Home = () => (
         
       <a name="témoignages" data-title="Témoignages" />
       <ContentBlockMixed
+        heading="Témoignages"
+
+        //Module "Témoignages" #1
+        /*
+
+        items={[
+          {
+            type: "ContentGroupCards",
+            //heading: "Ils vous parlent de nous",
+            items: [
+              {
+                heading: 
+                  "Alain - Technicien itinérant en systèmes d’alarmes",
+                copy:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                cta: {
+                  href: "#nousrejoindre",
+                },
+              },
+              {
+                heading: "Basile - Technicien itinérant en informatique et monétique",
+                copy:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                cta: {
+                  href: "#nousrejoindre",
+                },
+              },
+              {
+                heading: "Cédric - Manager opérationnel itinérant",
+                copy:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                cta: {
+                  href: "#nousrejoindre",
+                },
+              },
+              {
+                heading: "Dylan - Manager de la conduite d'activités",
+                copy:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                cta: {
+                  href: "#nousrejoindre",
+                },
+              },
+            ],
+          },
+        ]}*/
 
         //Module "Témoignages" #2
-
-        heading="Témoignages"
+        
         items={[
           {
             type: "ContentGroupSimple",
             mediaType: "image",
             mediaData: {
-              heading: "Lorem ipsum dolor sit amet.",
+              //heading: "Lorem ipsum dolor sit amet.",
               image: {
                 sources: [
                   {
@@ -237,30 +284,30 @@ const Home = () => (
                     breakpoint: 672,
                   },
                 ],
-                alt: "Image alt text",
+                alt: "Image showing holding hands",
                 defaultSrc:
-                  "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+                  "leadspaceimage.jpg",
               },
             },
 
             items: [
               {
-                heading: "A - Technicien itinérant en systèmes d’alarmes",
+                heading: "Alain - Technicien itinérant en systèmes d’alarmes",
                 copy:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
               },
               {
-                heading: "B - Technicien itinérant en informatique et monétique",
+                heading: "Basile - Technicien itinérant en informatique et monétique",
                 copy:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
               },
               {
-                heading: "C - Manager opérationnel itinérant",
+                heading: "Cédric - Manager opérationnel itinérant",
                 copy:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
               },
               {
-                heading: "D - Manager de la conduite d'activités",
+                heading: "Dylan - Manager de la conduite d'activités",
                 copy:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
               },
@@ -268,23 +315,22 @@ const Home = () => (
           },
         ]}
       />
+
       <a name="nousrejoindre" data-title="Nous rejoindre" />
-      <ContentBlockMixed 
+      <ContentBlockSimple
         id="nousrejoindre"
         heading="Nous rejoindre"
-        // Module "Rejoignez-vous" en bas de page
+        // Module "Rejoignez-nous" en bas de page
         cta={{
           cta: {
             href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
           },
           style: "card",
-          type: "local",
-          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et envoyez votre CV à charlotte.ruiz@o-i-s.fr ou postulez directement sur Indeed:",
+          type: "external",
+          copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et [envoyez-nous votre CV](mailto:charlotte.ruiz@o-i-s.fr) ou venez consulter [nos offres d'emploi sur Indeed](https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#).",
         }}
         
-        items={[
-
-        ]}
+        
       />
 
     </TableOfContents>
