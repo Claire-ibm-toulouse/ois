@@ -38,7 +38,7 @@ const Home = () => (
             breakpoint: "md",
           },
         ],*/
-        defaultSrc: "esplanade1056x480v2.jpg",
+        defaultSrc: "rsz_000021113402_full_copy.jpg",
         alt: "Image d'accueil",
       }}
     />
@@ -112,7 +112,7 @@ const Home = () => (
                 ],*/
                 alt: "picture showing holding hands",
                 defaultSrc:
-                  "leadspaceimage.jpg",
+                  "pexels-fauxels-3184418.jpg",
               },
             },
             heading: "Pourquoi nous rejoindre",
@@ -337,21 +337,7 @@ const Home = () => (
           <ContentBlockMedia
             id="nousrejoindre"
             heading="Nous rejoindre"
-
-            // Module "Rejoignez-nous" #1
-
-            /*cta={{
-              cta: {
-                href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
-              },
-              style: "card",
-              type: "external",
-              copy: "Envie de tenter l’aventure OIS ? N’hésitez plus et [envoyez-nous votre CV](mailto:charlotte.ruiz@o-i-s.fr) ou venez consulter [nos offres d'emploi sur Indeed](https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#).",
-            }}*/
-            
-            // module #2
             items={[]}
-
             cta={{
               type: "feature",
               heading: " ",
@@ -359,8 +345,9 @@ const Home = () => (
                 cta: {
                   href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
                   icon: {
-                    src: Launch20
+                    src: Launch20,
                   },
+                  type: "external"
                 },
                 heading: "Envie de tenter l’aventure OIS ?",
                 copy: "N’hésitez plus et retrouvez toutes nos offres d'emploi sur notre page Indeed !",
