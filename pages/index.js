@@ -233,7 +233,7 @@ const Home = () => (
                 items: [
                   {
                     heading: 
-                      "Alain - Technicien itinérant en systèmes d’alarmes",
+                      "Abdel - Technicien itinérant en systèmes d’alarmes",
                     copy:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
                     cta: {
@@ -241,7 +241,15 @@ const Home = () => (
                     },
                   },
                   {
-                    heading: "Basile - Technicien itinérant en informatique et monétique",
+                    heading: "Olivier - Technicien itinérant en informatique et monétique",
+                    copy:
+                      "Le meilleur moment de ma journée est de terminer mon intervention avec la satisfaction du Client. Ce que j'aime le plus dans mon métier est l'autonomie, la diversité et la possibilité de monter en compétences sur différents projets. Et enfin, les échanges avec les nombreuses personnes que l'on peut rencontrer dans une journée de travail. Sédentaire depuis de très nombreuses années, j'apprécie vraiment aujourd'hui l'itinérance et découvrir notre région au travers de nos tournées.",
+                    cta: {
+                      href: "#nousrejoindre",
+                    },
+                  },
+                  {
+                    heading: "Mouna - Manager de la conduite d'activités",
                     copy:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
                     cta: {
@@ -249,15 +257,7 @@ const Home = () => (
                     },
                   },
                   {
-                    heading: "Cédric - Manager opérationnel itinérant",
-                    copy:
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-                    cta: {
-                      href: "#nousrejoindre",
-                    },
-                  },
-                  {
-                    heading: "Dylan - Manager de la conduite d'activités",
+                    heading: "Ludovic - Manager opérationnel",
                     copy:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
                     cta: {
@@ -347,7 +347,6 @@ const Home = () => (
                   icon: {
                     src: Launch20,
                   },
-                  type: "external"
                 },
                 heading: "Envie de tenter l’aventure OIS ?",
                 copy: "N’hésitez plus et retrouvez toutes nos offres d'emploi sur notre page Indeed !",
