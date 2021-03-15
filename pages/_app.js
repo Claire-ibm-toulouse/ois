@@ -55,7 +55,7 @@ export default class CarbonForIBMDotcom extends App {
           />
           <meta name="dcterms.date" content="2015-10-01" />
           <meta name="dcterms.rights" content="© Copyright IBM Corp. 2020" />
-          <meta name="geo.country" content="US" />
+          <meta name="geo.country" content="FR" />
           <meta name="robots" content="index,follow" />
 
           <script dangerouslySetInnerHTML={{ __html: digitalData }} />
