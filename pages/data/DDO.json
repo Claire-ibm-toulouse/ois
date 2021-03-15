@@ -4,20 +4,20 @@
       "primaryCategory": ""
     },
     "pageInfo": {
-      "effectiveDate": "",
-      "expiryDate": "",
-      "language": "",
-      "publishDate": "",
-      "publisher": "",
+      "effectiveDate": "2021-04-01",
+      "expiryDate": "2025-04-01",
+      "language": "fr-FR",
+      "publishDate": "2021-04-01",
+      "publisher": "IBM Corporation",
       "version": "Carbon for IBM.com",
       "ibm": {
-        "contentDelivery": "",
-        "contentProducer": "",
-        "country": "",
-        "industry": "",
-        "owner": "",
-        "siteID": "",
-        "subject": "",
+        "contentDelivery": "React",
+        "contentProducer": "Carbon Design",
+        "country": "FR",
+        "industry": "Strategic Partnerships",
+        "owner": "Gilles Marcoul/France/IBM",
+        "siteID": "OIS",
+        "subject": "Offres Innovantes de Services",
         "type": ""
       }
     }

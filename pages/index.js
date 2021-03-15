@@ -10,7 +10,7 @@ import {
   ContentBlockMedia,
   Layout
 } from "@carbon/ibmdotcom-react";
-import { ArrowRight20, Launch20 } from "@carbon/icons-react";
+import { Launch20 } from "@carbon/icons-react";
 import React from "react";
 
 /**
@@ -39,7 +39,7 @@ const Home = () => (
           },
         ],*/
         defaultSrc: "rsz_000021113402_full_copy.jpg",
-        alt: "Image d'accueil",
+        alt: "Image d'accueil représentant des buildings",
       }}
     />
 
@@ -91,7 +91,6 @@ const Home = () => (
             type: "ContentGroupSimple",
             mediaType: "image",
             mediaData: {
-              //heading: "Lorem ipsum dolor sit amet.",
               image: {
                 /*sources: [
                   {
@@ -110,7 +109,7 @@ const Home = () => (
                     breakpoint: 672,
                   },
                 ],*/
-                alt: "picture showing holding hands",
+                alt: "mains jointes symbolisant une équipe",
                 defaultSrc:
                   "pexels-fauxels-3184418.jpg",
               },
@@ -118,7 +117,6 @@ const Home = () => (
             heading: "Pourquoi nous rejoindre",
             items: [
               {
-                //heading: "Pour toutes ces raisons :",
                 copy:
                   "Nous sommes une entreprise dynamique, à taille humaine et en perpétuelle évolution. Soucieux de respecter l'équilibre vie privée vie professionnelle, nous travaillons en confiance avec nos collaborateurs et vous accordons une grande autonomie. Le développement de vos compétences par des formations adaptées et continues tout au long de votre parcours professionnel, ainsi que des conditions motivantes : CE, 1% Logement, participation aux bénéfices, vous placent au coeur de la stratégie de l'entreprise. Nous recrutons partout en France alors n'attendez plus : rejoignez-nous!",
               },
@@ -145,13 +143,13 @@ const Home = () => (
                     href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
                   },
                 },
-                {
+                /*{
                   type: "external",
                   copy: "Une question? Ecrivez-nous",
                   cta: {
                     href: "mailto:Charlotte.Ruiz@fr.ibm.com",
                   },
-                },
+                },*/
               ]}
             />
           ),
@@ -235,7 +233,7 @@ const Home = () => (
                     heading: 
                       "Abdel - Technicien itinérant en systèmes d’alarmes",
                     copy:
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                      "\"Ce que j'aime dans mon métier est que chaque journée est différente. J'apprécie aussi l’autonomie, la relation client, l’aspect technico-commercial, la proximité avec mes collaborateurs (manager, RH, conduite d'activité ...) toujours à l'écoute pour apporter des solutions.\"",
                     cta: {
                       href: "#nousrejoindre",
                     },
@@ -243,7 +241,7 @@ const Home = () => (
                   {
                     heading: "Olivier - Technicien itinérant en informatique et monétique",
                     copy:
-                      "Le meilleur moment de ma journée est de terminer mon intervention avec la satisfaction du Client. Ce que j'aime le plus dans mon métier est l'autonomie, la diversité et la possibilité de monter en compétences sur différents projets. Et enfin, les échanges avec les nombreuses personnes que l'on peut rencontrer dans une journée de travail. Sédentaire depuis de très nombreuses années, j'apprécie vraiment aujourd'hui l'itinérance et découvrir notre région au travers de nos tournées.",
+                      "\"Le meilleur moment de ma journée c'est de terminer mon intervention avec la satisfaction du Client. Ce que j'aime le plus dans mon métier : l'autonomie, la diversité des activités et des échanges, la possibilité de monter en compétences sur différents projets, travailler en itinérance et découvrir notre région au travers de nos tournées.\"",
                     cta: {
                       href: "#nousrejoindre",
                     },
@@ -267,65 +265,8 @@ const Home = () => (
                 ],
               },
             ]}
-
-        //Module "Témoignages" #2
-        /*
-        items={[
-          {
-            type: "ContentGroupSimple",
-            mediaType: "image",
-            mediaData: {
-              //heading: "Lorem ipsum dolor sit amet.",
-              image: {
-                sources: [
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 320,
-                  },
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 400,
-                  },
-                  {
-                    src:
-                      "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-                    breakpoint: 672,
-                  },
-                ],
-                alt: "Image showing holding hands",
-                defaultSrc:
-                  "leadspaceimage.jpg",
-              },
-            },
-
-            items: [
-              {
-                heading: "Alain - Technicien itinérant en systèmes d’alarmes",
-                copy:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-              },
-              {
-                heading: "Basile - Technicien itinérant en informatique et monétique",
-                copy:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-              },
-              {
-                heading: "Cédric - Manager opérationnel itinérant",
-                copy:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-              },
-              {
-                heading: "Dylan - Manager de la conduite d'activités",
-                copy:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
-              },
-            ],
-          },
-        ]}*/
-      />
-          </div>
+          />
+        </div>
         <div></div>
       </Layout>
 
@@ -353,14 +294,13 @@ const Home = () => (
                 image: {
                   defaultSrc:
                     "chutelibre.jpg",
-                  alt: "Image alt text",
+                  alt: "Groupe de personnes faisant de la chute libre",
                 },
               },
             }}
           />
         </div>
         <div></div>
-
       </Layout>
 
     </TableOfContents>
