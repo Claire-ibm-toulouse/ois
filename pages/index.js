@@ -249,7 +249,7 @@ const Home = () => (
                   {
                     heading: "Mouna - Manager de la conduite d'activités",
                     copy:
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                      "\"Je suis manager d'une équipe de 4 personnes. Pour réussir dans mon métier, il faut être à l'écoute, avoir un bon esprit d'analyse et une volonté de s'améliorer. J'apprécie de faire monter en compétences mes collaboratrices, évoluer à leur côté et contribuer à la bonne marche de mon entreprise.\"",
                     cta: {
                       href: "#nousrejoindre",
                     },
@@ -257,7 +257,7 @@ const Home = () => (
                   {
                     heading: "Ludovic - Manager opérationnel",
                     copy:
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum tortor. Sed id pellentesque diam. In ut quam id mauris finibus efficitur quis ut arcu. Praesent purus turpis, venenatis eget odio et, tincidunt bibendum sem. Curabitur pretium elit non blandit lobortis. Donec quis pretium odio, in dignissim sapien.",
+                      "\"Je m'occupe d'une équipe de 20 techniciens (6 en informatique et 14 en alarme). Pour exercer mon métier, il faut être à l'écoute, disponible, communiquer, connaître le métier des techniciens. J'aime apporter des réponses et solutions à mes collaborateurs. J'apprécie la diversité de mes activités et l'appui des deux grandes entités de notre entreprise.\"",
                     cta: {
                       href: "#nousrejoindre",
                     },
