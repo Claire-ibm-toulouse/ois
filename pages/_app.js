@@ -33,14 +33,14 @@ export default class CarbonForIBMDotcom extends App {
     const stylesVersion = packageJson.dependencies["@carbon/ibmdotcom-styles"];
     const digitalData = `digitalData=${JSON.stringify(DDO)};`;
 
-    const items = altlangs.map((alt, i) => (
+    /*const items = altlangs.map((alt, i) => (
       <link
         key={i}
         rel="alternate"
         hrefLang={`${alt.lc}-${alt.cc}`}
         href={`${_rootPath}?cc=${alt.cc}&lc=${alt.lc}`}
       />
-    ));
+    ));*/
 
     return (
       <>
@@ -75,7 +75,6 @@ export default class CarbonForIBMDotcom extends App {
             }}
           />
 
-          {items}
 
           {process.env.ENABLE_RTL === "true" && (
             <script
