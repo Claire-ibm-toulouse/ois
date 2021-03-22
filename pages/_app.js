@@ -55,6 +55,10 @@ export default class CarbonForIBMDotcom extends App {
           />
           <meta name="dcterms.date" content="2015-10-01" />
           <meta name="dcterms.rights" content="© Copyright IBM Corp. 2020" />
+          <meta name="description" content="Une société de services du groupe IBM France spécialisée dans l'installation de systèmes d'alarmes chez les particuliers et dans la maintenance informatique pour agences bancaires et commerçants." />
+          <meta name="keywords" content="ois, offres innovantes de services, maintenance informatique, alarmes, offres d’emploi, technicien itinérant" />
+          <meta name="abstract" content="Une société de services du groupe IBM France spécialisée dans l'installation de systèmes d'alarmes chez les particuliers et dans la maintenance informatique pour agences bancaires et commerçants." />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="geo.country" content="FR" />
           <meta name="robots" content="index,follow" />
 
