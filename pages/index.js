@@ -8,9 +8,11 @@ import {
   ContentBlockMixed,
   ContentGroupSimple,
   ContentBlockMedia,
-  Layout
+  Layout,
+  FeatureCardBlockMedium,
+  FeatureCardBlockLarge
 } from "@carbon/ibmdotcom-react";
-import { Launch20 } from "@carbon/icons-react";
+import { ArrowRight20, Launch20, Launch32 } from "@carbon/icons-react";
 import React from "react";
 
 /**
@@ -299,6 +301,44 @@ const Home = () => (
               },
             }}
           />
+
+<FeatureCardBlockMedium
+        eyebrow="scelerisque purus"
+        heading="Feature Card Block Large"
+        copy="Habitant morbi tristique senectus et netus et malesuada fames. Habitant morbi tristique."
+        cta={{
+          href: "https://example.com",
+          icon: {
+            src: Launch32,
+          },
+        }}
+        image={{
+          sources: [
+            {
+              src: "https://dummyimage.com/320x160/ee5396/161616&text=2:1",
+              breakpoint: "sm",
+            },
+            {
+              src: "https://dummyimage.com/400x200/ee5396/161616&text=2:1",
+              breakpoint: "md",
+            },
+            {
+              src: "https://dummyimage.com/600x600/ee5396/161616&text=1:1",
+              breakpoint: 991,
+            },
+            {
+              src: "https://dummyimage.com/600x300/ee5396/161616&text=2:1",
+              breakpoint: "lg",
+            },
+            {
+              src: "https://dummyimage.com/672x672/ee5396/161616&text=1:1",
+              breakpoint: "xlg",
+            },
+          ],
+          defaultSrc: "https://dummyimage.com/600x600/ee5396/161616&text=1:1",
+          alt: "Image alt text",
+        }}
+      />
         </div>
         <div></div>
       </Layout>
