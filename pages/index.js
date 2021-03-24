@@ -6,13 +6,10 @@ import {
   LeadSpace,
   LinkList,
   ContentBlockMixed,
-  ContentGroupSimple,
-  ContentBlockMedia,
   Layout,
   FeatureCardBlockMedium,
-  FeatureCardBlockLarge
 } from "@carbon/ibmdotcom-react";
-import { ArrowRight20, Launch20, Launch32 } from "@carbon/icons-react";
+import { Launch20 } from "@carbon/icons-react";
 import React from "react";
 
 /**
@@ -28,18 +25,7 @@ const Home = () => (
       title="Offres Innovantes de Services (OIS)"
       copy="Une société de services du groupe IBM France spécialisée dans l'installation de systèmes d'alarmes chez les particuliers et dans la maintenance informatique pour agences bancaires et commerçants."
       gradient={true}
-      // buttons={buttons}
       image={{
-        /*sources: [
-          {
-            src: "https://dummyimage.com/320x370/ee5396/161616",
-            breakpoint: "sm",
-          },
-          {
-            src: "https://dummyimage.com/672x400/ee5396/161616",
-            breakpoint: "md",
-          },
-        ],*/
         defaultSrc: "rsz_000021113402_full_copy.jpg",
         alt: "Image d'accueil représentant des buildings",
       }}
@@ -70,47 +56,29 @@ const Home = () => (
                 heading:
                   "Technicien itinérant en systèmes d’alarmes",
                 copy:
-                  "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les besoins du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces.",
+                  "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les besoins du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces.\n _**Lire un témoignage**_",
                 cta: {
-                  href: "#nousrejoindre",
+                  href: "#témoignages",
                 },
               },
               {
                 heading:
                   "Technicien itinérant en informatique et monétique",
                 copy: 
-                  "Nos technicien(ne)s interviennent dans des succursales bancaires ou commerçants en garantissant la qualité de service et la satisfaction de nos clients. Principales missions: assurer des tâches d’installation et dépannage selon les instructions et procédures définies, conseiller et assister les utilisateurs, procéder aux diagnostics des pannes, appliquer une procédure de tests aux différents stades de l’intervention, réaliser les actions administratives, informatiques et logistiques.",
+                  "Nos technicien(ne)s interviennent dans des succursales bancaires ou commerçants en garantissant la qualité de service et la satisfaction de nos clients. Principales missions: assurer des tâches d’installation et dépannage selon les instructions et procédures définies, conseiller et assister les utilisateurs, procéder aux diagnostics des pannes, appliquer une procédure de tests aux différents stades de l’intervention, réaliser les actions administratives, informatiques et logistiques.&#10 _**Lire un témoignage**_",
                 cta: {
-                  href: "#nousrejoindre",
+                  href: "#témoignages",
                 },
               }
             ],
           },
           
           // Module "Pourquoi nous rejoindre"
-          
           {
             type: "ContentGroupSimple",
             mediaType: "image",
             mediaData: {
               image: {
-                /*sources: [
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 320,
-                  },
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 400,
-                  },
-                  {
-                    src:
-                      "https://media.istockphoto.com/photos/young-woman-entering-authorization-code-picture-id822123538?s=612x612",
-                    breakpoint: 672,
-                  },
-                ],*/
                 alt: "mains jointes symbolisant une équipe",
                 defaultSrc:
                   "pexels-fauxels-3184418.jpg",
@@ -145,13 +113,6 @@ const Home = () => (
                     href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
                   },
                 },
-                /*{
-                  type: "external",
-                  copy: "Une question? Ecrivez-nous",
-                  cta: {
-                    href: "mailto:Charlotte.Ruiz@fr.ibm.com",
-                  },
-                },*/
               ]}
             />
           ),
@@ -224,8 +185,7 @@ const Home = () => (
           <ContentBlockMixed
             heading="Témoignages"
 
-            //Module "Témoignages" #1
-
+            //Module "Témoignages"
             items={[
               {
                 type: "ContentGroupCards",
@@ -275,70 +235,25 @@ const Home = () => (
 
       <Layout nested={true} type="2-1" border={false}>
         <div>
-
           <a name="nousrejoindre" data-title="Nous rejoindre" />
-          <ContentBlockMedia
+          <FeatureCardBlockMedium
             id="nousrejoindre"
             heading="Nous rejoindre"
-            items={[]}
-            cta={{
-              type: "feature",
-              heading: " ",
-              card: {
-                cta: {
-                  href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
-                  icon: {
-                    src: Launch20,
-                  },
+            card={{
+              heading: "Envie de tenter l’aventure OIS ?",
+              copy: "N’hésitez plus et retrouvez toutes nos offres d'emploi sur notre page Indeed !",
+              cta: {
+                href: "httpshttps://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
+                icon: {
+                  src: Launch20,
                 },
-                heading: "Envie de tenter l’aventure OIS ?",
-                copy: "N’hésitez plus et retrouvez toutes nos offres d'emploi sur notre page Indeed !",
-                image: {
-                  defaultSrc:
-                    "chutelibre.jpg",
-                  alt: "Groupe de personnes faisant de la chute libre",
-                },
+              },
+              image: {
+                defaultSrc: "chutelibre.jpg",
+                alt: "Image aerienne de personnes pratiquant la chute libre",
               },
             }}
           />
-
-<FeatureCardBlockMedium
-        eyebrow="scelerisque purus"
-        heading="Feature Card Block Large"
-        copy="Habitant morbi tristique senectus et netus et malesuada fames. Habitant morbi tristique."
-        cta={{
-          href: "https://example.com",
-          icon: {
-            src: Launch32,
-          },
-        }}
-        image={{
-          sources: [
-            {
-              src: "https://dummyimage.com/320x160/ee5396/161616&text=2:1",
-              breakpoint: "sm",
-            },
-            {
-              src: "https://dummyimage.com/400x200/ee5396/161616&text=2:1",
-              breakpoint: "md",
-            },
-            {
-              src: "https://dummyimage.com/600x600/ee5396/161616&text=1:1",
-              breakpoint: 991,
-            },
-            {
-              src: "https://dummyimage.com/600x300/ee5396/161616&text=2:1",
-              breakpoint: "lg",
-            },
-            {
-              src: "https://dummyimage.com/672x672/ee5396/161616&text=1:1",
-              breakpoint: "xlg",
-            },
-          ],
-          defaultSrc: "https://dummyimage.com/600x600/ee5396/161616&text=1:1",
-          alt: "Image alt text",
-        }}
-      />
         </div>
         <div></div>
       </Layout>
