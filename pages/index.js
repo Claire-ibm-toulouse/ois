@@ -27,7 +27,7 @@ const Home = () => (
       copy="Une société de services du groupe IBM France spécialisée dans l'installation de systèmes d'alarmes chez les particuliers et dans la maintenance informatique pour agences bancaires et commerçants."
       gradient={true}
       image={{
-        defaultSrc: "rsz_000021113402_full_copy.jpg",
+        defaultSrc: "skyscrapers_1056_480_2021_03_29.jpg",
         alt: "Image d'accueil représentant des buildings",
       }}
     />

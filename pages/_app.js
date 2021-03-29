@@ -62,19 +62,10 @@ export default class CarbonForIBMDotcom extends App {
           <meta name="geo.country" content="FR" />
           <meta name="robots" content="index,follow" />
 
-          <script dangerouslySetInnerHTML={{ __html: digitalData }} />
-
           <script
             dangerouslySetInnerHTML={{
               __html: `
-            var params = new URLSearchParams(window.location.search);
-            
-            if(params.has('lc') && params.has('cc')) {
-              var lang = params.get('lc') + '-' + params.get('cc').toUpperCase();
-              document.getElementsByTagName("html")[0].setAttribute("lang", lang);
-              digitalData.page.pageInfo.language = lang;
-              digitalData.page.pageInfo.ibm.country = params.get('cc').toUpperCase();
-            }
+              document.getElementsByTagName("html")[0].setAttribute("lang", 'fr-FR');
            `,
             }}
           />
@@ -94,11 +85,14 @@ export default class CarbonForIBMDotcom extends App {
           <script src="//1.www.s81c.com/common/stats/ibm-common.js" defer />
         </Head>
         <DotcomShell
+          footerProps={{
+            disableLocaleButton: true,
+          }}
           mastheadProps={{
             navigation: "default",
           }}
         >
-          <Component {...pageProps} />
+       <Component {...pageProps} />
         </DotcomShell>
       </>
     );
