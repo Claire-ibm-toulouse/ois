@@ -8,6 +8,7 @@ import {
   ContentBlockMixed,
   Layout,
   FeatureCardBlockMedium,
+  ContentBlockMedia
 } from "@carbon/ibmdotcom-react";
 import { Launch20 } from "@carbon/icons-react";
 import React from "react";
@@ -39,11 +40,11 @@ const Home = () => (
         
         // Module "A propos"
         heading="A propos"
-        copy="Créée en 2017, OIS (Offres Innovantes de Services) est une jeune entreprise dynamique portée par deux grandes entités internationales. 
-        Depuis ses débuts, l'entreprise s’est dotée de compétences techniques de proximité pour accompagner ses clients dans la transformation digitale de leurs entreprises.  
-        Les équipes de techniciens prennent en charge les missions avec, comme principe directeur, la qualité du service rendu. Pour cela, elle reste à l'écoute de ses collaborateurs. 
-        OIS couvre 3 activités principales : l'installation de systèmes d'alarmes principalement chez les particuliers, l'installation et
-        la maintenance de solutions informatiques et monétiques dans des agences bancaires et chez des commercants, et des activités de transport. Notre réponse au marché s’articule autour de trois thèmes : présence géographique, industrialisation et innovation constante."
+        copy="Crée en 2017, OIS (Offres Innovantes de Services) est une jeune entreprise dynamique portée par deux grandes entités internationales.
+Depuis ses débuts, l'entreprise s’est dotée de compétences techniques de proximité pour répondre aux besoins de ses clients. 
+OIS couvre 3 activités principales: l'installation de systèmes d'alarmes principalement chez les particuliers, l’installation et la maintenance de solutions informatiques et monétiques dans des agences bancaires et chez des commerçants, ainsi que des activités de transport.
+Notre réponse au marché s’articule autour de quatre thèmes: présence géographique, qualité du service rendu, industrialisation et innovation constante.
+"
         
         items={[
           
@@ -56,7 +57,7 @@ const Home = () => (
                 heading:
                   "Technicien itinérant en systèmes d’alarmes",
                 copy:
-                  "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les besoins du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces.\n _**Lire un témoignage**_",
+                  "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les besoins du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces. _**Lire un témoignage**_",
                 cta: {
                   href: "#témoignages",
                 },
@@ -65,7 +66,7 @@ const Home = () => (
                 heading:
                   "Technicien itinérant en informatique et monétique",
                 copy: 
-                  "Nos technicien(ne)s interviennent dans des succursales bancaires ou commerçants en garantissant la qualité de service et la satisfaction de nos clients. Principales missions: assurer des tâches d’installation et dépannage selon les instructions et procédures définies, conseiller et assister les utilisateurs, procéder aux diagnostics des pannes, appliquer une procédure de tests aux différents stades de l’intervention, réaliser les actions administratives, informatiques et logistiques.&#10 _**Lire un témoignage**_",
+                  "Nos technicien(ne)s interviennent dans des succursales bancaires ou commerçants en garantissant la qualité de service et la satisfaction de nos clients. Principales missions: assurer des tâches d’installation et dépannage selon les instructions et procédures définies, conseiller et assister les utilisateurs, procéder aux diagnostics des pannes, appliquer une procédure de tests aux différents stades de l’intervention, réaliser les actions administratives, informatiques et logistiques. _**Lire un témoignage**_",
                 cta: {
                   href: "#témoignages",
                 },
@@ -232,25 +233,34 @@ const Home = () => (
         <div></div>
       </Layout>
 
-
       <Layout nested={true} type="2-1" border={false}>
+
         <div>
+
           <a name="nousrejoindre" data-title="Nous rejoindre" />
-          <FeatureCardBlockMedium
+
+          <ContentBlockMedia
             id="nousrejoindre"
             heading="Nous rejoindre"
-            card={{
-              heading: "Envie de tenter l’aventure OIS ?",
-              copy: "N’hésitez plus et retrouvez toutes nos offres d'emploi sur notre page Indeed !",
-              cta: {
-                href: "httpshttps://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
-                icon: {
-                  src: Launch20,
+            items={[]}
+            cta={{
+              type: "feature",
+              heading: " ",
+              card: {
+                type: "external",
+                cta: {
+                  href: "https://fr.indeed.com/cmp/Offres-Innovantes-De-Services-1?attributionid=adwebapp#",
+                  icon: {
+                    src: Launch20
+                  },
                 },
-              },
-              image: {
-                defaultSrc: "chutelibre.jpg",
-                alt: "Image aerienne de personnes pratiquant la chute libre",
+                heading: "Envie de tenter l’aventure OIS?",
+                copy: "N’hésitez plus et retrouvez toutes nos offres d'emploi sur notre page Indeed!",
+                image: {
+                  defaultSrc:
+                    "chutelibre.jpg",
+                  alt: "Image alt text",
+                },
               },
             }}
           />
