@@ -24,9 +24,19 @@ const Home = () => (
       type="centered"
       theme="g100"
       title="Offres Innovantes de Services (OIS)"
-      copy="Une société de services du groupe IBM France spécialisée dans l'installation de systèmes d'alarmes chez les particuliers et dans la maintenance informatique pour agences bancaires et commerçants."
+      copy="Une société de services du groupe IBM France spécialisée dans l'installation de systèmes d'alarme chez les particuliers, la maintenance informatique pour agences bancaires et commerçants, et les solutions de transport."
       gradient={true}
       image={{
+        sources: [
+          {
+            src: "kyscrapers_1056_480_2021_03_29.jpg",
+            breakpoint: "sm",
+          },
+          {
+            src: "kyscrapers_1056_480_2021_03_29.jpg",
+            breakpoint: "md",
+          },
+        ],
         defaultSrc: "skyscrapers_1056_480_2021_03_29.jpg",
         alt: "Image d'accueil représentant des buildings",
       }}
@@ -40,9 +50,9 @@ const Home = () => (
         
         // Module "A propos"
         heading="A propos"
-        copy="Crée en 2017, OIS (Offres Innovantes de Services) est une jeune entreprise dynamique portée par deux grandes entités internationales.
+        copy="Créée en 2017, OIS (Offres Innovantes de Services) est une jeune entreprise dynamique portée par deux grandes entités internationales.
 Depuis ses débuts, l'entreprise s’est dotée de compétences techniques de proximité pour répondre aux besoins de ses clients. 
-OIS couvre 3 activités principales: l'installation de systèmes d'alarmes principalement chez les particuliers, l’installation et la maintenance de solutions informatiques et monétiques dans des agences bancaires et chez des commerçants, ainsi que des activités de transport.
+OIS couvre 3 activités principales: l'installation de systèmes d'alarme principalement chez les particuliers, l’installation et la maintenance de solutions informatiques et monétiques dans des agences bancaires et chez des commerçants, ainsi que des activités de transport.
 Notre réponse au marché s’articule autour de quatre thèmes: présence géographique, qualité du service rendu, industrialisation et innovation constante.
 "
         
@@ -55,9 +65,9 @@ Notre réponse au marché s’articule autour de quatre thèmes: présence géog
             items: [
               {
                 heading:
-                  "Technicien itinérant en systèmes d’alarmes",
+                  "Technicien itinérant en systèmes d’alarme",
                 copy:
-                  "Nos technicien(ne)s itinérants installent des systèmes d’alarmes chez des particuliers et entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les besoins du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces. _**Lire un témoignage**_",
+                  "Nos technicien(ne)s itinérants installent des systèmes d’alarme chez des particuliers et entreprises. Principales missions : rédiger le diagnostic sécuritaire en y consignant les besoins du client, réaliser les tests attestant le bon fonctionnement du système d’alarme installé, expliquer le fonctionnement du système à l’abonné, intervenir en cas de défauts techniques du système chez l’abonné, assurer le remplacement des pièces. _**Lire un témoignage**_",
                 cta: {
                   href: "#témoignages",
                 },
@@ -194,7 +204,7 @@ Notre réponse au marché s’articule autour de quatre thèmes: présence géog
                 items: [
                   {
                     heading: 
-                      "Abdel - Technicien itinérant en systèmes d’alarmes",
+                      "Abdel - Technicien itinérant en systèmes d’alarme",
                     copy:
                       "\"Ce que j'aime dans mon métier : chaque journée est différente. J'apprécie l’autonomie, la relation client, l’aspect technico-commercial, la proximité avec mes collègues (techniciens, managers, RH, conduite d'activité ...), être toujours à l'écoute pour apporter des solutions.\"",
                     cta: {
@@ -212,7 +222,7 @@ Notre réponse au marché s’articule autour de quatre thèmes: présence géog
                   {
                     heading: "Mouna - Manageur de la conduite d'activités",
                     copy:
-                      "\"Après avoir débuté comme pilote d’activité, j’ai pris le poste de manageur d'une équipe de 4 personnes. Pour réussir dans mon métier, il faut savoir écouter, posséder un bon esprit d'analyse et la volonté constante de progresser. Je saisis chaque occasion pour accompagner mes collaborateurs/trices à monter en compétences, et ainsi contribue à la bonne marche de la société.\"",
+                      "\"Après avoir débuté comme pilote d’activité, j’ai pris le poste de manageur d'une équipe de 4 personnes. Pour réussir dans mon métier, il faut savoir écouter, posséder un bon esprit d'analyse et la volonté constante de progresser. Je saisis chaque occasion pour accompagner et aider mes collaborateurs/trices à monter en compétences, et ainsi contribue à la bonne marche de la société.\"",
                     cta: {
                       href: "#nousrejoindre",
                     },
@@ -220,7 +230,7 @@ Notre réponse au marché s’articule autour de quatre thèmes: présence géog
                   {
                     heading: "Ludovic - Manageur opérationnel",
                     copy:
-                      "\"J’ai commencé chez OIS en 2017 comme technicien itinérant basé sur Nantes. Depuis plus de 2 ans, j’ai été promu manageur d'une équipe de 20 techniciens (6 en informatique et 14 en alarme). Pour exercer mon métier, il faut être à l'écoute, se rendre disponible, communiquer, comprendre le métier des techniciens, leur apporter des solutions. J'apprécie la diversité de mes activités et l'appui des deux grandes entités de notre entreprise.\"",
+                      "\"J’ai commencé chez OIS en 2017 comme technicien itinérant basé sur Nantes. Il y a deux ans j’ai été promu manageur d'une équipe de 20 techniciens (6 en informatique et 14 en alarme). Pour exercer mon métier, il faut être à l'écoute, se rendre disponible, communiquer, comprendre le métier des techniciens, leur apporter des solutions. J'apprécie la diversité de mes activités et l'appui des deux grandes entités de notre entreprise.\"",
                     cta: {
                       href: "#nousrejoindre",
                     },
@@ -258,7 +268,7 @@ Notre réponse au marché s’articule autour de quatre thèmes: présence géog
                 copy: "N’hésitez plus et retrouvez toutes nos offres d'emploi sur notre page Indeed!",
                 image: {
                   defaultSrc:
-                    "chutelibre.jpg",
+                    "Noir et Orange Simple Internet Logo.jpg",
                   alt: "Image alt text",
                 },
               },
