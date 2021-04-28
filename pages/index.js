@@ -268,8 +268,8 @@ Notre réponse au marché s’articule autour de quatre thèmes: présence géog
                 copy: "N’hésitez plus et retrouvez toutes nos offres d'emploi sur notre page Indeed!",
                 image: {
                   defaultSrc:
-                    "Noir et Orange Simple Internet Logo.jpg",
-                  alt: "Image alt text",
+                    "chutelibre.jpg",
+                  alt: "Groupe de personnes faisant de la chute libre",
                 },
               },
             }}
